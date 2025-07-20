@@ -19,3 +19,6 @@ https://wan.video/
 https://github.com/user-attachments/assets/56ea3586-3c6f-472a-8773-bde6e8ee267c
 
 https://github.com/user-attachments/assets/e61cb999-921b-4660-8896-fd31840a0aa2
+
+<-- Cinematic OFF | Cinematic ON -->
+<img width="1552" height="442" alt="Image" src="https://github.com/user-attachments/assets/854a1a3c-cc36-446c-ba9f-66b5665d7b17" />
