@@ -16,4 +16,6 @@ https://wan.video/
 
 ### 🖼 Output
 
+https://github.com/user-attachments/assets/56ea3586-3c6f-472a-8773-bde6e8ee267c
 
+https://github.com/user-attachments/assets/e61cb999-921b-4660-8896-fd31840a0aa2
