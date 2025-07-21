@@ -26,13 +26,43 @@
     },
     "width": {
       "type": "integer",
+      "widget": "select",
       "description": "Width",
-      "widget": "hidden"
+      "oneOf": [
+         {
+            "description": "1024",
+            "enum": [
+                1024
+            ]
+          },
+          {
+            "description": "1280",
+            "enum": [
+                1280
+            ]
+          }
+      ],
+      "default": 1024
     },
     "height": {
       "type": "integer",
+      "widget": "select",
       "description": "Height",
-      "widget": "hidden"
+      "oneOf": [
+          {
+            "description": "576",
+            "enum": [
+                576
+            ]
+          },
+          {
+            "description": "720",
+            "enum": [
+                720
+            ]
+          }
+        ],
+        "default": 576
     },
     "length": {
       "type": "integer",
@@ -90,6 +120,7 @@
       "image4": "https://files.catbox.moe/wv5trg.mp4",
       "video_aspect_ratio": "60%",
       "line1": "Video: 1280x720 pixels, 5 seconds | Gen Time: ~6 minutes",
+      "line2": "Video: 1024x576 pixels, 5 seconds | Gen Time: ~3 minutes",
       "widget": "example"
     }
   },
