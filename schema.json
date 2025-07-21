@@ -50,13 +50,11 @@
     },
     "sampler_name": {
       "type": "string",
-      "description": "Sampler Name",
-      "widget": "textarea"
+      "description": "Sampler Name"
     },
     "scheduler": {
       "type": "string",
-      "description": "Scheduler",
-      "widget": "textarea"
+      "description": "Scheduler"
     },
     "steps": {
       "type": "integer",
@@ -64,7 +62,7 @@
     },
     "seed": {
       "type": "integer",
-      "description": "Seed",
+      "description": "Seed"
     },
     "fps": {
       "type": "integer",
@@ -72,8 +70,7 @@
     },
     "filename_prefix": {
       "type": "string",
-      "description": "Filename Prefix",
-      "widget": "textarea"
+      "description": "Filename Prefix"
     },
     "is_cinematic": {
       "type": "boolean",
