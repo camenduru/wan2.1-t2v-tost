@@ -14,6 +14,9 @@ https://arxiv.org/abs/2503.20314
 ### 🌐 Page
 https://wan.video/
 
+### 📦 Model (LoRA)
+https://civitai.com/models/1773251/wan21-classic-90s-film-aesthetic-the-crow-style
+
 ### 🖼 Output
 
 https://github.com/user-attachments/assets/de17ed18-1dbc-466f-a879-baf6c9ab1a3a
