@@ -29,18 +29,30 @@
       "widget": "select",
       "description": "Width",
       "oneOf": [
-         {
-            "description": "1024",
-            "enum": [
-                1024
-            ]
-          },
-          {
-            "description": "1280",
-            "enum": [
-                1280
-            ]
-          }
+        {
+          "description": "576",
+          "enum": [
+            576
+          ]
+        },
+        {
+          "description": "720",
+          "enum": [
+            720
+          ]
+        },
+        {
+          "description": "1024",
+          "enum": [
+            1024
+          ]
+        },
+        {
+          "description": "1280",
+          "enum": [
+            1280
+          ]
+        }
       ],
       "default": 1024
     },
@@ -49,20 +61,32 @@
       "widget": "select",
       "description": "Height",
       "oneOf": [
-          {
-            "description": "576",
-            "enum": [
-                576
-            ]
-          },
-          {
-            "description": "720",
-            "enum": [
-                720
-            ]
-          }
-        ],
-        "default": 576
+        {
+          "description": "576",
+          "enum": [
+            576
+          ]
+        },
+        {
+          "description": "720",
+          "enum": [
+            720
+          ]
+        },
+        {
+          "description": "1024",
+          "enum": [
+            1024
+          ]
+        },
+        {
+          "description": "1280",
+          "enum": [
+            1280
+          ]
+        }
+      ],
+      "default": 576
     },
     "length": {
       "type": "integer",
