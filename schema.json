@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "Wan 2.1 T2V: Open and Advanced Large-Scale Video Generative Models",
+      "author": "Ang Wang, Baole Ai, Bin Wen, Chaojie Mao, Chen-Wei Xie, Di Chen, Feiwu Yu, Haiming Zhao, Jianxiao Yang, Jianyuan Zeng",
+      "code": "https://github.com/Wan-Video/Wan2.1",
+      "paper": "https://arxiv.org/abs/2503.20314",
+      "page": "https://wan.video/",
+      "tags": [
+        "Text to Video"
+      ],
+      "widget": "readme"
+    },
+    "positive_prompt": {
+      "type": "string",
+      "description": "Positive Prompt",
+      "widget": "textarea"
+    },
+    "negative_prompt": {
+      "type": "string",
+      "description": "Negative Prompt",
+      "widget": "textarea"
+    },
+    "width": {
+      "type": "integer",
+      "description": "Width"
+    },
+    "height": {
+      "type": "integer",
+      "description": "Height"
+    },
+    "length": {
+      "type": "integer",
+      "description": "Length"
+    },
+    "batch_size": {
+      "type": "integer",
+      "description": "Batch Size"
+    },
+    "shift": {
+      "type": "integer",
+      "description": "Shift"
+    },
+    "cfg": {
+      "type": "number",
+      "description": "CFG"
+    },
+    "sampler_name": {
+      "type": "string",
+      "description": "Sampler Name",
+      "widget": "textarea"
+    },
+    "scheduler": {
+      "type": "string",
+      "description": "Scheduler",
+      "widget": "textarea"
+    },
+    "steps": {
+      "type": "integer",
+      "description": "Steps"
+    },
+    "seed": {
+      "type": "integer",
+      "description": "Seed",
+    },
+    "fps": {
+      "type": "integer",
+      "description": "FPS"
+    },
+    "filename_prefix": {
+      "type": "string",
+      "description": "Filename Prefix",
+      "widget": "textarea"
+    },
+    "is_cinematic": {
+      "type": "boolean",
+      "description": "Is Cinematic"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=input#.png",
+      "image2": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=input#.png",
+      "image3": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=output#.png",
+      "image4": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=output#.png",
+      "widget": "example"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
