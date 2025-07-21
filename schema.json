@@ -22,23 +22,27 @@
     "negative_prompt": {
       "type": "string",
       "description": "Negative Prompt",
-      "widget": "textarea"
+      "widget": "hidden"
     },
     "width": {
       "type": "integer",
-      "description": "Width"
+      "description": "Width",
+      "widget": "hidden"
     },
     "height": {
       "type": "integer",
-      "description": "Height"
+      "description": "Height",
+      "widget": "hidden"
     },
     "length": {
       "type": "integer",
-      "description": "Length"
+      "description": "Length",
+      "widget": "hidden"
     },
     "batch_size": {
       "type": "integer",
-      "description": "Batch Size"
+      "description": "Batch Size",
+      "widget": "hidden"
     },
     "shift": {
       "type": "integer",
@@ -58,11 +62,12 @@
     },
     "steps": {
       "type": "integer",
-      "description": "Steps"
+      "description": "Steps",
+      "widget": "hidden"
     },
     "seed": {
       "type": "integer",
-      "description": "Seed"
+      "description": "Seed (if 0 random)"
     },
     "fps": {
       "type": "integer",
@@ -70,7 +75,8 @@
     },
     "filename_prefix": {
       "type": "string",
-      "description": "Filename Prefix"
+      "description": "Filename Prefix",
+      "widget": "hidden"
     },
     "is_cinematic": {
       "type": "boolean",
@@ -81,7 +87,9 @@
       "image1": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=input#.png",
       "image2": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=input#.png",
       "image3": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=output#.png",
-      "image4": "https://holder.tost.ai/1347x836/282828/eae0d0/?text=output#.png",
+      "image4": "https://files.catbox.moe/wv5trg.mp4",
+      "video_aspect_ratio": "60%",
+      "line1": "Video: 1280x720 pixels, 5 seconds | Gen Time: ~6 minutes",
       "widget": "example"
     }
   },
